@@ -1,14 +1,16 @@
 cmake_minimum_required(VERSION 3.15)
-project(untitled3)
+project(test)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(
-        ${CMAKE_SOURCE_DIR}/include
-)
+add_subdirectory(CJSON)
 
-add_executable(untitled3
+#add_library(CJSON)
+
+add_executable(test
         main.cpp
-        ${CMAKE_SOURCE_DIR}/include/CJsonObject.cpp
-        ${CMAKE_SOURCE_DIR}/include/cJSON.c
+        )
+
+target_link_libraries(test
+        CJSON
         )
