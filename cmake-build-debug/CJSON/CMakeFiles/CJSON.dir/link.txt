@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libCJSON.so -o ../../lib/libCJSON.so CMakeFiles/CJSON.dir/CJsonObject.cpp.o CMakeFiles/CJSON.dir/cJSON.c.o 

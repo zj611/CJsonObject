@@ -15,5 +15,5 @@ gradle/
 .metadata/
 */node_modules
 node_modules
-.build/
-.cmake-build-debug/
+build/
+cmake-build-debug/
