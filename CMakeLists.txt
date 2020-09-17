@@ -5,8 +5,6 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_subdirectory(CJSON)
 
-#add_library(CJSON)
-
 add_executable(test
         main.cpp
         )
